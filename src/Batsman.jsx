@@ -25,7 +25,7 @@ export default function Batsman() {
     <div>
       <h3>Player: Bangla Batsman</h3>
       <p>Sixes: {sixes}</p>
-      {runs > 50 && <p>You score: 50</p>}
+      {runs >= 50 && <p>You score: 50</p>}
       <h1>Score: {runs}</h1>
       <button onClick={handleSingle}>singles</button>
       <button onClick={handleFour}>Four</button>
